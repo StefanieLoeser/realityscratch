@@ -1,5 +1,6 @@
 import logoWithText from "../public/assets/RS_logo_with_staggered_text_cut.jpg";
 import Image from "next/image";
+import Link from "next/link";
 
 function LandingPage() {
   return (
@@ -15,7 +16,9 @@ function LandingPage() {
           musicians, magicians, vampires and general flâneurs.
         </p>
         <button className="m-20 p-5 text-white bg-black rounded-sm text-base">
-          Want in? Get in touch!
+          <Link href="mailto:info@realityscratch.com">
+            Want in? Get in touch!
+          </Link>
         </button>
       </div>
     </>
