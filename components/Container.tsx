@@ -1,5 +1,7 @@
 export default function Container({ children }) {
   return (
-    <div className="container h-screen mx-auto my-10 px-5">{children}</div>
+    <div className="box-content h-screen px-5% py-20% flex-wrap">
+      {children}
+    </div>
   );
 }
